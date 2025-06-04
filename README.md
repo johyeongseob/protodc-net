@@ -1,5 +1,5 @@
 # Unknown
-This paper is discovered when submission is accepted.
+This paper will be disclosed when the submission is accepted
 
 Dataset
 
