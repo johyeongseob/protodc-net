@@ -15,9 +15,16 @@ Dataset
 
 ```
 MULTI-LIGHT_SOURCE_USB-CONNECTION/
+│
 ├── Anomaly_detection/
-├── DAGM2007/
+│   ├── __pycache__/
+│   ├── Anomaly_inference.py
+│   ├── Anomaly_train.py
+│   ├── AnomalyDetection.py
+│   └── AnomalyLoss.py
+│
 ├── MD_baseline/
+│   ├── __pycache__/
 │   ├── DECAF_MLR_MV.py
 │   ├── ETE_MV.py
 │   ├── FOMI.py
@@ -29,6 +36,7 @@ MULTI-LIGHT_SOURCE_USB-CONNECTION/
 │   └── MVTec_AD/
 │
 ├── ProtoDC_Net/
+│   ├── __pycache__/
 │   ├── Ablation_global.py
 │   ├── Ablation_local.py
 │   ├── Ablation_nomedian.py
@@ -40,9 +48,10 @@ MULTI-LIGHT_SOURCE_USB-CONNECTION/
 │   └── t_SNE_mean_median.py
 │
 ├── SD_baseline/
-│   ├── augmentation_image/
-│   ├── augmentation.py
+│   ├── __pycache__/
+│   ├── augmentaion_image/
 │   ├── augmentation_classifier.py
+│   ├── augmentation.py
 │   ├── DECAF_MLR.py
 │   ├── ETE.py
 │   ├── SD_baseline_inference.py
@@ -55,12 +64,9 @@ MULTI-LIGHT_SOURCE_USB-CONNECTION/
 │
 ├── USB_MD/
 ├── USB_SD/
+├── DAGM2007/
 ├── weights/
-│
-├── model_size.py
 ├── model.py
 ├── normalize.py
-├── util.py
-├── tsne_before.png
-└── tsne_after.png
+└── util.py
 ```
