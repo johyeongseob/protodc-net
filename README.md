@@ -70,3 +70,75 @@ Dataset
 > All results are averaged over three trials.
 
 
+# 🔍 Anomaly Detection using ProtoDC-Net (not included in the paper)
+
+This directory provides code for anomaly detection using **ProtoDC-Net**, a prototype-based defect classification network.
+
+---
+
+## 📊 1. Dataset Configuration (MVTec-AD)
+
+- **Train**: 1 class → `normal`
+- **Validation**: 1 class → `normal`
+- **Test**: 2 classes → `normal`, `abnormal`
+
+---
+
+## ⚙️ 2. Classification by Thresholding
+
+We classify samples based on the similarity between their global embeddings and the learned prototype.
+
+- **Similarity**  
+  \[
+  \text{similarity} = \cos(e_G^t, \text{prototype})
+  \]  
+  where \( e_G^t \) is the global vector of a test sample.
+
+- **Threshold**  
+  \[
+  \text{threshold} = \min \left\{ \cos(e_G^v, \text{prototype}) \;|\; e_G^v \in \mathcal{D}_{\text{val}}^{\text{normal}} \right\}
+  \]  
+  where \( e_G^v \) is the global vector of a validation sample.
+
+- **Prediction Rule**  
+  \[
+  \text{Prediction} = 
+  \begin{cases}
+  \textbf{abnormal}, & \text{if } \text{similarity} < \text{threshold} \times \text{margin} \\
+  \textbf{normal}, & \text{otherwise}
+  \end{cases}
+  \]
+
+---
+
+## 📌 Notation
+
+- \( e_G^t \): Global vector of a **test** sample  
+- \( e_G^v \): Global vector of a **validation** sample  
+- `prototype`: Mean embedding of normal training samples
+
+---
+
+
+## 📈 3. Evaluation Metrics
+
+We evaluate the method using:
+- Accuracy (Normal/Abnormal)
+- F1-score (binary classification)
+
+The following table shows results for 5 selected classes (out of 15):
+
+| **Class**   | Bottle | Pill   | Toothbrush | Transistor | Wood   |
+|------------|--------|--------|------------|------------|--------|
+| **Margin** | 1.000  | 1.0005 | 1.001      | 1.0005     | 1.0005 |
+| **Threshold** | 0.9927 | 0.9932 | 0.9886     | 0.9942     | 0.9917 |
+| **Accuracy (normal)**   | 95.00  | 100.00 | 85.00      | 85.00      | 85.00  |
+| **Accuracy (abnormal)** | 73.02  | 79.43  | 76.67      | 52.50      | 85.00  |
+| **F1 Score**            | 83.64  | 84.21  | 77.97      | 53.16      | 87.18  |
+
+> *Note: Only 5 out of 15 classes are shown above.*
+
+---
+
+© Smart Vision & Media Lab, Dongguk University
+
