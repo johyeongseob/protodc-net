@@ -29,7 +29,7 @@ USB-SD 다운로드: https://github.com/Xavierman/A-deep-learning-based-surface-
 DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 
-## Classification
+## Classification Accuracy
 
 
 ### 📊 Classification Accuracies on USB-MD Dataset
@@ -73,11 +73,11 @@ DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 > All results are averaged over three trials.
 
 
-# 🔍 Anomaly Detection using ProtoDC-Net (not included in the paper)
+## 🔍 Anomaly Detection using ProtoDC-Net (not included in the paper)
 
 ---
 
-## 📊 1. Dataset Configuration (MVTec-AD)
+### 📊 1. Dataset Configuration (MVTec-AD)
 
 - **Train**: 1 class → `normal`
 - **Validation**: 1 class → `normal`
@@ -85,43 +85,38 @@ DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 ---
 
-## ⚙️ 2. Classification by Thresholding
+
+### ⚙️ 2. Classification by Thresholding
 
 We classify samples based on the similarity between their global embeddings and the learned prototype.
 
 - **Similarity**  
-  \[
-  \text{similarity} = \cos(e_G^t, \text{prototype})
-  \]  
-  where \( e_G^t \) is the global vector of a test sample.
+  similarity = cos(e_G^t, prototype)  
+  where e_G^t is the global vector of a test sample.
 
 - **Threshold**  
-  \[
-  \text{threshold} = \min \left\{ \cos(e_G^v, \text{prototype}) \;|\; e_G^v \in \mathcal{D}_{\text{val}}^{\text{normal}} \right\}
-  \]  
-  where \( e_G^v \) is the global vector of a validation sample.
+  threshold = min{ cos(e_G^v, prototype) | e_G^v ∈ D_val^normal }  
+  where e_G^v is the global vector of a validation sample.
 
-- **Prediction Rule**  
-  \[
-  \text{Prediction} = 
-  \begin{cases}
-  \textbf{abnormal}, & \text{if } \text{similarity} < \text{threshold} \times \text{margin} \\
-  \textbf{normal}, & \text{otherwise}
-  \end{cases}
-  \]
+- **Prediction Rule**
+  if similarity < (threshold × margin):
+      prediction = abnormal
+  else:
+      prediction = normal
 
 ---
 
-## 📌 Notation
+### 📌 Notation
 
-- \( e_G^t \): Global vector of a **test** sample  
-- \( e_G^v \): Global vector of a **validation** sample  
-- `prototype`: Mean embedding of normal training samples
+- e_G^t: Global vector of a **test** sample  
+- e_G^v: Global vector of a **validation** sample  
+- prototype: Mean embedding of normal training samples
+
 
 ---
 
 
-## 📈 3. Evaluation Metrics
+### 📈 3. Evaluation Metrics
 
 We evaluate the method using:
 - Accuracy (Normal/Abnormal)
