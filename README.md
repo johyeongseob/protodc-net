@@ -3,9 +3,13 @@ This paper will be disclosed when the submission is accepted (paper에 사용된
 
 Dataset
 
-1. USB-MD: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
+1. USB-MD
 
-<img src="images/USB_MD.jpg" alt="USB_MD" width="50%"/>
+<div align="center">
+  <img src="images/USB_MD.jpg" alt="USB_MD" width="50%"/>
+</div>
+
+다운로드: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
 
 2. USB-SD: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
 (그림 추가)
