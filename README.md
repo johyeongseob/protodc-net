@@ -6,7 +6,7 @@ Dataset
 1. USB-MD
 
 <div align="center">
-  <img src="images/USB_MD.jpg" alt="USB_MD" width="50%"/>
+  <img src="images/USB_MD.jpg" alt="USB_MD" width="75%"/>
 </div>
 
 다운로드: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
