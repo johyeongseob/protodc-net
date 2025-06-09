@@ -1,7 +1,7 @@
 # ProtoDC-Net
 This paper will be disclosed when the submission is accepted (paper에 사용된 그림들 적극 활용)
 
-Dataset
+## Dataset
 
 1. USB-MD
 
@@ -43,6 +43,8 @@ DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 > **Note**: Bold values indicate the highest score per class.  
 > All results are averaged over three runs with different random seeds (42, 43, and 44).
 
+
+## Classification
 
 ### 📊 Classification Accuracies on USB-SD Dataset
 
