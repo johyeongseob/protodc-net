@@ -72,8 +72,6 @@ Dataset
 
 # 🔍 Anomaly Detection using ProtoDC-Net (not included in the paper)
 
-This directory provides code for anomaly detection using **ProtoDC-Net**, a prototype-based defect classification network.
-
 ---
 
 ## 📊 1. Dataset Configuration (MVTec-AD)
