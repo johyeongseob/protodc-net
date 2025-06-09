@@ -29,6 +29,9 @@ USB-SD 다운로드: https://github.com/Xavierman/A-deep-learning-based-surface-
 DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 
+## Classification
+
+
 ### 📊 Classification Accuracies on USB-MD Dataset
 
 | Method            | BrightLine | Deformation | Dent   | Scratch | Normal | Total  |
@@ -42,9 +45,6 @@ DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 > **Note**: Bold values indicate the highest score per class.  
 > All results are averaged over three runs with different random seeds (42, 43, and 44).
-
-
-## Classification
 
 ### 📊 Classification Accuracies on USB-SD Dataset
 
