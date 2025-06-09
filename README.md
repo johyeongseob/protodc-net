@@ -123,7 +123,7 @@ We classify samples based on the similarity between their global embeddings and 
 
 The evaluation metrics (Accuracy, F1 score) are reported for 3 margin values per class. Bold values indicate the best performance for each class.
 
-| **Metric / Class**       | Bottle (M1) | Bottle (M2) | Bottle (M3) | Pill (M1) | Pill (M2) | Pill (M3) | Toothbrush (M1) | Toothbrush (M2) | Toothbrush (M3) | Transistor (M1) | Transistor (M2) | Transistor (M3) | Wood (M1) | Wood (M2) | Wood (M3) |
+| **Metric / Class**       | Bottle | Bottle | Bottle | Pill | Pill | Pill | Toothbrush | Toothbrush | Toothbrush | Transistor | Transistor | Transistor | Wood | Wood | Wood |
 |--------------------------|-------------|-------------|-------------|-----------|-----------|-----------|------------------|------------------|------------------|------------------|------------------|------------------|-----------|-----------|-----------|
 | **Margin**               | 1.000       | **1.0005**  | 1.001       | 1.000     | 1.0005    | **1.001** | 1.000            | 1.0005           | **1.001**         | 1.000            | **1.0005**        | 1.001            | 1.000     | **1.0005** | 1.001     |
 | **Threshold**            | 0.9927      | **0.9932**  | 0.9942      | 0.9927    | 0.9932    | **0.9942**| 0.9871           | 0.9876           | **0.9886**        | 0.9937           | **0.9942**        | 0.9952           | 0.9913    | **0.9917** | 0.9927    |
