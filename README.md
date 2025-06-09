@@ -4,7 +4,7 @@ This paper will be disclosed when the submission is accepted (paper에 사용된
 Dataset
 
 1. USB-MD: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
-(그림 추가)
+![USB_MD](images/USB_MD.png)
 2. USB-SD: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
 (그림 추가)
 3. DAMG2007 (class 1-6): https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
