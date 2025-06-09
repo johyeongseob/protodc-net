@@ -99,10 +99,13 @@ We classify samples based on the similarity between their global embeddings and 
   where e_G^v is the global vector of a validation sample.
 
 - **Prediction Rule**
+
+```python
   if similarity < (threshold × margin):
       prediction = abnormal
   else:
       prediction = normal
+```
 
 ---
 
