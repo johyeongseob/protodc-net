@@ -23,7 +23,9 @@ Dataset
 
 
 USB-MD 다운로드: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
+
 USB-SD 다운로드: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
+
 DAGM2007 다운로드: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 
