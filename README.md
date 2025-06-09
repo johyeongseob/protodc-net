@@ -124,7 +124,7 @@ We evaluate the method using:
 - Accuracy (Normal/Abnormal)
 - F1-score (binary classification)
 
-The following table shows results for 5 selected classes (out of 15):
+The following table shows results for 5 selected classes:
 
 | **Class**   | Bottle | Pill   | Toothbrush | Transistor | Wood   |
 |------------|--------|--------|------------|------------|--------|
@@ -136,7 +136,4 @@ The following table shows results for 5 selected classes (out of 15):
 
 > *Note: Only 5 out of 15 classes are shown above.*
 
----
-
-© Smart Vision & Media Lab, Dongguk University
 
