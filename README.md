@@ -119,21 +119,18 @@ We classify samples based on the similarity between their global embeddings and 
 ---
 
 
-### 📈 3. Evaluation Metrics
+### 📊 Anomaly Detection Results (Three Margins per Class)
 
-We evaluate the method using:
-- Accuracy (Normal/Abnormal)
-- F1-score (binary classification)
+The evaluation metrics (Accuracy, F1 score) are reported for 3 margin values per class. Bold values indicate the best performance for each class.
 
-The following table shows results for 5 selected classes:
+| **Metric / Class**       | **Bottle**             | **Pill**               | **Toothbrush**         | **Transistor**         | **Wood**               |
+|--------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+| **Margin**               | 1.000<br>**1.0005**<br>1.001 | 1.000<br>1.0005<br>**1.001** | 1.000<br>1.0005<br>**1.001** | 1.000<br>**1.0005**<br>1.001 | 1.000<br>**1.0005**<br>1.001 |
+| **Threshold**            | 0.9927<br>**0.9932**<br>0.9942 | 0.9927<br>0.9932<br>**0.9942** | 0.9871<br>0.9876<br>**0.9886** | 0.9937<br>**0.9942**<br>0.9952 | 0.9913<br>**0.9917**<br>0.9927 |
+| **Accuracy (normal)**    | 95.00<br>**95.00**<br>45.00 | 100.00<br>92.31<br>**50.00** | 66.67<br>66.67<br>**50.00** | 85.00<br>**70.00**<br>10.00 | 78.95<br>**68.42**<br>57.89 |
+| **Accuracy (abnormal)**  | 73.02<br>**79.37**<br>93.65 | 12.06<br>26.95<br>**79.43** | 56.67<br>60.00<br>**76.67** | 30.00<br>**52.50**<br>87.50 | 76.67<br>**85.00**<br>90.00 |
+| **F1 Score**             | 83.64<br>**87.72**<br>88.72 | 21.52<br>41.99<br>**84.21** | 66.67<br>69.23<br>**77.97** | 39.34<br>**53.16**<br>54.26 | 83.64<br>**87.18**<br>88.52 |
 
-| **Class**   | Bottle | Pill   | Toothbrush | Transistor | Wood   |
-|------------|--------|--------|------------|------------|--------|
-| **Margin** | 1.000  | 1.0005 | 1.001      | 1.0005     | 1.0005 |
-| **Threshold** | 0.9927 | 0.9932 | 0.9886     | 0.9942     | 0.9917 |
-| **Accuracy (normal)**   | 95.00  | 100.00 | 85.00      | 85.00      | 85.00  |
-| **Accuracy (abnormal)** | 73.02  | 79.43  | 76.67      | 52.50      | 85.00  |
-| **F1 Score**            | 83.64  | 84.21  | 77.97      | 53.16      | 87.18  |
 
 > *Note: Only 5 out of 15 classes are shown above.*
 
