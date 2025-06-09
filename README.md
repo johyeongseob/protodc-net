@@ -5,7 +5,7 @@ Dataset
 
 1. USB-MD: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
 
-![USB_MD](images/USB_MD.jpg)
+<img src="images/USB_MD.jpg" alt="USB_MD" width="50%"/>
 
 2. USB-SD: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
 (그림 추가)
