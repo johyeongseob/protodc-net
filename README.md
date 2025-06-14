@@ -122,8 +122,8 @@ We classify samples based on the similarity between their global embeddings and 
 
 ### 📊 Anomaly Detection Results (Three Margins per Class)
 
-The evaluation metrics (Accuracy, F1 score) are reported for 3 margin values (1 [original], 1.0005, and 1.001) per class. 
-Bold values indicate the best performance for each class.
+The evaluation metrics (Accuracy, F1 score) are reported for three margin values (1 [original], 1.0005, and 1.001) for per class. 
+The best performance for each class is shown in the table below.
 
 |     Metric / Class      | Bottle  |  Pill  | Toothbrush | Transistor |  Wood   |
 |--------------------------|:-------:|:------:|:----------:|:----------:|:-------:|
