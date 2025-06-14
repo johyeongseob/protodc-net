@@ -124,17 +124,13 @@ We classify samples based on the similarity between their global embeddings and 
 The evaluation metrics (Accuracy, F1 score) are reported for 3 margin values per class. Bold values indicate the best performance for each class.
 Three margin values (1 [original], 1.0005, and 1.001) were used, and the best performance for each class is highlighted in bold.
 
-Metric / Class           | Bottle  | Pill   | Toothbrush | Transistor | Wood  
--------------------------|---------|--------|------------|------------|-------
-Margin                   | 1.0005  | 1.001  | 1.001      | 1.0005     | 1.0005
-Threshold                | 0.9932  | 0.9942 | 0.9886     | 0.9942     | 0.9917
-Accuracy (normal)        | 95.00   | 50.00  | 50.00      | 70.00      | 68.42
-Accuracy (abnormal)      | 79.37   | 79.43  | 76.67      | 52.50      | 85.00
-F1 Score                 | 87.72   | 84.21  | 77.97      | 53.16      | 87.18
-
-
-
-
+|     Metric / Class      | Bottle  |  Pill  | Toothbrush | Transistor |  Wood   |
+|:------------------------:|:-------:|:------:|:----------:|:----------:|:-------:|
+|         Margin           | 1.0005  | 1.001  |   1.001    |   1.0005   | 1.0005  |
+|        Threshold         | 0.9932  | 0.9942 |   0.9886   |   0.9942   | 0.9917  |
+|  Accuracy (normal)       | 95.00   | 50.00  |   50.00    |   70.00    | 68.42   |
+| Accuracy (abnormal)      | 79.37   | 79.43  |   76.67    |   52.50    | 85.00   |
+|        F1 Score          | 87.72   | 84.21  |   77.97    |   53.16    | 87.18   |
 
 > *Note: Only 5 out of 15 classes are shown above.*
 
