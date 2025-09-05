@@ -3,11 +3,11 @@
 
 ## Dataset download
 
-### USB-MD: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
+1. USB-MD: https://drive.google.com/drive/folders/1NvQ5vZvZMdpJN8s1ttp9ZaMZ13OgQbAa?usp=sharing
 
-### USB-SD: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
+2. USB-SD: https://github.com/Xavierman/A-deep-learning-based-surface-defect-inspection-system-using-multi-scale-and-channel-compressed-feat?tab=readme-ov-file
 
-### DAGM2007: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
+3. DAGM2007: https://conferences.mpi-inf.mpg.de/dagm/2007/prizes.html
 
 
 ## Classification Accuracy
