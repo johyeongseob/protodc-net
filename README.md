@@ -1,5 +1,5 @@
 # ProtoDC-Net
-This paper will be disclosed when the submission is accepted (paper에 사용된 그림들 적극 활용)
+![classifier Model](images/protodcnet.jpg)
 
 ## Dataset
 
