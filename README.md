@@ -1,5 +1,5 @@
 # ProtoDC-Net
-![classifier Model](images/protodcnet.jpg)
+![classifier Model](images/protodc-net.jpg)
 
 ## Dataset download
 
