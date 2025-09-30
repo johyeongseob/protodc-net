@@ -1,5 +1,5 @@
 # ProtoDC-Net
-![classifier Model](images/protodc-net.jpg)
+![Image](https://github.com/user-attachments/assets/9f07a505-4c78-42d4-92b0-da7c00f95a7d)
 
 ## Dataset download
 
