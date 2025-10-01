@@ -1,5 +1,5 @@
 # ProtoDC-Net
-![Image](https://github.com/user-attachments/assets/9f07a505-4c78-42d4-92b0-da7c00f95a7d)
+![Image](https://github.com/user-attachments/assets/3f1aace7-b8c2-4afc-8c88-e4017010864b)
 
 ## Dataset download
 
